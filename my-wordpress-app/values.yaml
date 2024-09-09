@@ -58,7 +58,7 @@ ingress:
           pathType: ImplementationSpecific
           backend:
             service:
-              name: my-wordpress-app  # Replace with the actual service name for WordPress
+              name: wordpress # Replace with the actual service name for WordPress
               port:
                 number: 80
   tls: 
